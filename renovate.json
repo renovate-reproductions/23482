@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "helpers:pinGitHubActionDigests",
+    ":dependencyDashboard"
+  ],
+  "schedule": [
+    "on Friday",
+    "every weekend"
+  ],
+  "timezone": "Europe/Berlin",
+  "rebaseWhen": "behind-base-branch",
+  "constraints": {
+    "node": "< 15.0.0"
+  }
+}
