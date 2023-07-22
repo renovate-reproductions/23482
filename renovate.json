@@ -12,6 +12,7 @@
   "timezone": "Europe/Berlin",
   "rebaseWhen": "behind-base-branch",
   "constraints": {
-    "node": "< 15.0.0"
+    "node": "< 15.0.0",
+    "npm": "< 7"
   }
 }
