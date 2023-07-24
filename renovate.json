@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "baseBranches": ["main", "no-lerna", "root-package.json, "another-package", "latest-node"],
+  "baseBranches": ["main", "no-lerna", "root-package.json", "another-package", "latest-node"],
   "extends": [
     "config:base",
     "helpers:pinGitHubActionDigests",
