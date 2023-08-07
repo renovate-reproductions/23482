@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "baseBranches": ["main", "no-lerna", "root-package.json", "another-package", "latest-node"],
+  "baseBranches": ["main"],
   "extends": [
     "config:base",
     "helpers:pinGitHubActionDigests",
@@ -13,7 +13,7 @@
   "timezone": "Europe/Berlin",
   "rebaseWhen": "behind-base-branch",
   "constraints": {
-    "node": "< 15.0.0",
-    "npm": "< 7"
+    "npm": "< 7",
+    "node": "< 15.0.0"
   }
 }
