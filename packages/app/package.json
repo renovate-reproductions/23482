@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@capacitor/filesystem": "5.1.0"
+    "@capacitor/filesystem": "5.1.1"
   }
 }
